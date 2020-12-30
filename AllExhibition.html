@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+
+    <title>全部展覽資訊 - 看展趣</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="css/fontawesome.css">
+    <link rel="stylesheet" href="css/style.css">
+
+
+
+</head>
+
+<body>
+
+    <!-- ***** Preloader Start ***** -->
+    <div id="preloader">
+        <div class="jumper">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <!-- ***** Preloader End ***** -->
+
+    <!-- Header -->
+    <header class="">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <h2>看展<em>趣</em></h2>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class=" dropdown">
+                            <a class="nav-link dropdown-toggle active" href="" style="cursor:default;">全部展覽
+                            <span class="sr-only">(current)</span> </a>
+
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="AllExhibition.html">全部展覽</a>
+                                <a class="dropdown-item" href="#">當期展覽</a>
+                                <a class="dropdown-item" href="#">新展預告</a>
+                                <a class="dropdown-item" href="#">過往展覽</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="cursor:default;">
+                                我想看展</a>
+
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="#">從地區分</a>
+                                <a class="dropdown-item" href="search_type.html">從類型分</a>
+                                <a class="dropdown-item" href="#">從價格分</a>
+                                <a class="dropdown-item" href="#">從年齡限制分</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.taiwantradeshows.com.tw/zh_TW/index.html" target="_blank" title="臺灣國際專業展覧網站Taiwan International Tradeshows">
+                                臺灣國際專業展覧</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="" style="cursor:default;">各大展覽購票平台</a>
+
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="https://tickets.udnfunlife.com/application/UTK01/UTK0101_03.aspx?Category=231&kdid=cateList" target="_blank" title="udn售票網">
+                                    udn售票網</a>
+                                <a class="dropdown-item" href="https://kham.com.tw/application/UTK01/UTK0101_06.aspx?TYPE=1&CATEGORY=231" target="_blank" title="寬宏售票系統">
+                                    寬宏售票系統</a>
+                                <a class="dropdown-item" href="https://kktix.com/events?category_id=11" target="_blank" title="KKTIX">
+                                    KKTIX</a>
+                                <a class="dropdown-item" href="https://ticket.ibon.com.tw/Index/otherE" target="_blank" title="ibon售票系統">
+                                    ibon售票系統</a>
+                                <a class="dropdown-item" href="https://tickets.books.com.tw/leisure/" target="_blank" title="ibon售票系統">
+                                    博客來售票網</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="" style="cursor:default;">藝文展覽資訊平台</a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="https://event.moc.gov.tw/mp.asp?mp=1" target="_blank" title="文化部全國藝文資訊網">
+                                    文化部全國藝文資訊網</a>
+                                <a class="dropdown-item" href="https://cloud.culture.tw" target="_blank" title="iCulture藝文資訊查詢平台">
+                                    iCulture藝文資訊查詢平台</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Page Content -->
+    <div class="page-heading products-heading header-text">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="text-content">
+                        <h4>全部展覽 ></h4>
+                        <h2>全部展覽資訊</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="products">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2">
+                    <div class="filters">
+                        <ul>
+                            <li class="active" data-filter="*" style="display: block;float:left;">全部展覽</li><br>
+                            <li data-filter=".2021" style="display: block;float:left;">2021</li><br>
+                            <li data-filter=".2020" style="display: block;float:left;">2020</li><br>
+                            <li data-filter=".2019" style="display: block;float:left;">2019</li><br>
+                            <li data-filter=".pass" style="display: block;float:left;">2018及以前</li><br>
+
+                            <a href="Info_example.html">
+                                <li data-filter="" style="display: block;float:left;">當期展覽</li><br>
+                                <a>
+                                    <a href="Info_example.html">
+                                        <li data-filter="" style="display: block;float:left;">新展預告</li><br>
+                                        <a>
+                                            <a href="Info_example.html">
+                                                <li data-filter="" style="display: block;float:left;">過往展覽</li><br>
+                                                <a>
+
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-md-10">
+                    <div class="filters-content">
+                        <div class="row grid">
+
+                            <div class="col-lg-6 col-md-6 all 2020">
+                                <div class="team-member">
+                                    <a href="Info_example.html">
+                                        <div class="thumb-container">
+                                            <img src="../images/44.jpg" alt="">
+                                            <div class="hover-effect">
+                                                <div class="hover-content" style="text-align:left; padding: 10px; color: white;">
+                                                    <p>
+                                                        「2020大米缸計畫 台灣米 善動力」以最貼近民眾的途徑，站在身旁傾訴大米缸計畫想說的話，期待更多的企業、個人在展覽中，成為挹注大米缸計畫善良的一份子... </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <div class="down-content" style="text-align:unset">
+
+                                        <div style="margin-bottom: 10px;">
+                                            <p class="badge" style="cursor:default; color: grey;">｜台灣米</p>
+                                            <p class="badge" style="cursor:default; color: grey;">｜免費入場</p>
+                                        </div>
+                                        <a href="Info_example.html">
+                                            <h4 class="ellipsis">2020年2020年台北紡織展</h4>
+                                        </a>
+
+                                        <p>
+                                            <h5>2020/11/20~2021/01/03</h5> 11:00 ~ 21:00<br>華山文創產業園區 - 中4A-2館</p>
+                                        <br>
+                                        <div>
+                                            <button type="button" class="btn go" onclick="window.open('', '_blank')">加入行事曆</button>
+                                            <button type="button" class="btn go" onclick="window.open('https://www.facebook.com/lebut301/', '_blank')">前往官網</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6 col-md-6 all 2020">
+                                <div class="team-member">
+                                    <a href="Info_example.html">
+                                        <div class="thumb-container">
+                                            <img src="../images/44.jpg" alt="">
+                                            <div class="hover-effect">
+                                                <div class="hover-content" style="text-align:left; padding: 10px; color: white;">
+                                                    <p>
+                                                        「2020大米缸計畫 台灣米 善動力」以最貼近民眾的途徑，站在身旁傾訴大米缸計畫想說的話，期待更多的企業、個人在展覽中，成為挹注大米缸計畫善良的一份子... </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <div class="down-content" style="text-align:unset">
+
+                                        <div style="margin-bottom: 10px;">
+                                            <p class="badge" style="cursor:default; color: grey;">｜台灣米</p>
+                                            <p class="badge" style="cursor:default; color: grey;">｜免費入場</p>
+                                        </div>
+                                        <a href="Info_example.html">
+                                            <h4 class="ellipsis">2020年2020年台北紡織展</h4>
+                                        </a>
+
+                                        <p>
+                                            <h5>2020/11/20~2021/01/03</h5> 11:00 ~ 21:00<br>華山文創產業園區 - 中4A-2館</p>
+                                        <br>
+                                        <div>
+                                            <button type="button" class="btn go" onclick="window.open('', '_blank')">加入行事曆</button>
+                                            <button type="button" class="btn go" onclick="window.open('https://www.facebook.com/lebut301/', '_blank')">前往官網</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6 col-md-6 all 2019">
+                                <div class="team-member">
+                                    <a href="Info_example.html">
+                                        <div class="thumb-container">
+                                            <img src="../images/44.jpg" alt="">
+                                            <div class="hover-effect">
+                                                <div class="hover-content" style="text-align:left; padding: 10px; color: white;">
+                                                    <p>
+                                                        「2020大米缸計畫 台灣米 善動力」以最貼近民眾的途徑，站在身旁傾訴大米缸計畫想說的話，期待更多的企業、個人在展覽中，成為挹注大米缸計畫善良的一份子... </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <div class="down-content" style="text-align:unset">
+
+                                        <div style="margin-bottom: 10px;">
+                                            <p class="badge" style="cursor:default; color: grey;">｜台灣米</p>
+                                            <p class="badge" style="cursor:default; color: grey;">｜免費入場</p>
+                                        </div>
+                                        <a href="Info_example.html">
+                                            <h4 class="ellipsis">2020年2020年台北紡織展</h4>
+                                        </a>
+
+                                        <p>
+                                            <h5>2020/11/20~2021/01/03</h5> 11:00 ~ 21:00<br>華山文創產業園區 - 中4A-2館</p>
+                                        <br>
+                                        <div>
+                                            <button type="button" class="btn go" onclick="window.open('', '_blank')">加入行事曆</button>
+                                            <button type="button" class="btn go" onclick="window.open('https://www.facebook.com/lebut301/', '_blank')">前往官網</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6 col-md-6 all pass">
+                                <div class="team-member">
+                                    <a href="Info_example.html">
+                                        <div class="thumb-container">
+                                            <img src="../images/44.jpg" alt="">
+                                            <div class="hover-effect">
+                                                <div class="hover-content" style="text-align:left; padding: 10px; color: white;">
+                                                    <p>
+                                                        「2020大米缸計畫 台灣米 善動力」以最貼近民眾的途徑，站在身旁傾訴大米缸計畫想說的話，期待更多的企業、個人在展覽中，成為挹注大米缸計畫善良的一份子... </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <div class="down-content" style="text-align:unset">
+
+                                        <div style="margin-bottom: 10px;">
+                                            <p class="badge" style="cursor:default; color: grey;">｜台灣米</p>
+                                            <p class="badge" style="cursor:default; color: grey;">｜免費入場</p>
+                                        </div>
+                                        <a href="Info_example.html">
+                                            <h4 class="ellipsis">2020年2020年台北紡織展</h4>
+                                        </a>
+
+                                        <p>
+                                            <h5>2020/11/20~2021/01/03</h5> 11:00 ~ 21:00<br>華山文創產業園區 - 中4A-2館</p>
+                                        <br>
+                                        <div>
+                                            <button type="button" class="btn go" onclick="window.open('', '_blank')">加入行事曆</button>
+                                            <button type="button" class="btn go" onclick="window.open('https://www.facebook.com/lebut301/', '_blank')">前往官網</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <ul class="pages">
+                        <li class="active"><a href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li><a href="#">4</a></li>
+                        <li><a href="#"><i 872' class="fa fa-angle-double-right"></i></a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="inner-content">
+                        <p>Copyright &copy; 2020 LIS LSA9., Ltd. - Design: <a rel="nofollow noopener" href="https://templatemo.com" target="_blank">TemplateMo</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+
+    <!-- Additional Scripts -->
+    <script src="js/custom.js"></script>
+    <script src="js/owl.js"></script>
+    <script src="js/slick.js"></script>
+    <script src="js/isotope.js"></script>
+    <script src="js/accordions.js"></script>
+
+
+    <script language="text/Javascript">
+        cleared[0] = cleared[1] = cleared[2] = 0; //set a cleared flag for each field
+        function clearField(t) { //declaring the array outside of the
+            if (!cleared[t.id]) { // function makes it static and global
+                cleared[t.id] = 1; // you could use true and false, but that's more typing
+                t.value = ''; // with more chance of typos
+                t.style.color = '#fff';
+            }
+        }
+    </script>
+
+
+</body>
+
+</html>
