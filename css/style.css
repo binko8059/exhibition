@@ -763,6 +763,12 @@ footer .inner-content p a {
     margin-bottom: 20px;
 }
 
+.team-member .down-content p {
+    font-size: 13px;
+    margin-left: -10px;
+    margin-right: 5px;
+}
+
 .hover-content p {
     color: white;
     font-weight: bold;
