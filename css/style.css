@@ -654,11 +654,13 @@ footer .inner-content p a {
     margin: 0px 10px;
     transition: all .3s;
     cursor: pointer;
+    padding: 7px;
 }
 
 .products .filters ul li.active,
 .products .filters ul li:hover {
-    color: #f33f3f;
+    color: #eee;
+    background-color: #f33f3f;
 }
 
 .products ul.pages {
