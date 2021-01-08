@@ -63,10 +63,10 @@
                                 我想看展</a>
 
                             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item" href="search_place.html">從地區分類</a>
+                                <a class="dropdown-item" href="search_place.html">從地區分類（只有樣子）</a>
                                 <a class="dropdown-item" href="search_type.html">從類型分類</a>
-                                <a class="dropdown-item" href="search_price.html">從付費與否分類</a>
-                                <a class="dropdown-item" href="search_age.html">從年齡限制分類</a>
+                                <a class="dropdown-item" href="search_price.html">從付費與否分類（只有樣子）</a>
+                                <a class="dropdown-item" href="search_age.html">從年齡限制分類（只有樣子）</a>
                             </div>
                         </li>
                         <li class="nav-item">
@@ -1694,22 +1694,9 @@
 
     <!-- Additional Scripts -->
     <script src="js/custom.js"></script>
-    <script src="js/owl.js"></script>
     <script src="js/slick.js"></script>
     <script src="js/isotope.js"></script>
-    <script src="js/accordions.js"></script>
 
-
-    <script language="text/Javascript">
-        cleared[0] = cleared[1] = cleared[2] = 0; //set a cleared flag for each field
-        function clearField(t) { //declaring the array outside of the
-            if (!cleared[t.id]) { // function makes it static and global
-                cleared[t.id] = 1; // you could use true and false, but that's more typing
-                t.value = ''; // with more chance of typos
-                t.style.color = '#fff';
-            }
-        }
-    </script>
 
 
 </body>
